@@ -13,4 +13,18 @@ vector<string> Problem::solve(map<int, vector<string>>& digitToLettersMap, strin
 {
    if (digits.empty())  return vector<string>{};
    if (digits.length() == 1) return digitToLettersMap[stoi(digits)];
+
+   string firstDigit = string(1, digits[0]);
+   string restDigits = digits.substr(1);
+   auto solution1 = solve(digitToLettersMap, firstDigit);
+   auto solution2 = solve(digitToLettersMap, restDigits);
+   vector<string> solution;
+   for (auto it1 = solution1.begin(); it1 != solution1.end(); it1++)
+   {
+     for (auto it2 = solution2.begin(); it2 != solution2.end(); it2++)
+     {
+       solution.emplace_back(*it1 + *it2);
+     }
+   }
+   return solution;
 }
