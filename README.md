@@ -5,8 +5,10 @@
 82. Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters. For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
 
 83. Invert a binary tree. For example, given the following tree:
+``` 
     a          a
    / \        / \
   b   c  =>  c   b
  / \  /      \  / \
 d   e f       f e  d
+```
