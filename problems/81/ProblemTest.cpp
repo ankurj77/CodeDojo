@@ -1,11 +1,10 @@
 // Copyright 2020
 // Author: Ankur Jain
 
-#define CATCH_CONFIG_MAIN
 #include "../../catch2/catch.hpp"
 #include "Problem.h"
 
-SCENARIO( "Boundary conditions are tested", "[edge]" ) {
+SCENARIO( "81.Boundary conditions are tested", "[edge]" ) {
   Problem p;
 
   GIVEN( "Digit to letters mapping" )
@@ -32,7 +31,7 @@ SCENARIO( "Boundary conditions are tested", "[edge]" ) {
   }
 }
 
-SCENARIO( "Different cases are tested", "[cases]" ) {
+SCENARIO( "81.Different cases are tested", "[cases]" ) {
   Problem p;
 
   GIVEN( "Digit to letters mapping" )
@@ -69,7 +68,7 @@ SCENARIO( "Different cases are tested", "[cases]" ) {
   }
 }
 
-SCENARIO( "Large cases are tested", "[scale]" ) {
+SCENARIO( "81.Large cases are tested", "[scale]" ) {
   Problem p;
 
   GIVEN( "Digit to letters mapping" )
@@ -95,3 +94,4 @@ SCENARIO( "Large cases are tested", "[scale]" ) {
     }
   }
 }
+
