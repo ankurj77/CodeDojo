@@ -16,9 +16,9 @@ class Problem
   private:
   string contents;
   string buffer;
-  int position;
+  unsigned int position;
   string read7();
 
   public:
-  string readN(int n);
+  string readN(unsigned int n);
 };

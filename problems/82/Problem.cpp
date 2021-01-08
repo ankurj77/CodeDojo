@@ -23,7 +23,7 @@ string Problem::read7()
   return s;
 }
 
-string Problem::readN(int n)
+string Problem::readN(unsigned int n)
 {
   string solution;
   if (buffer.size() >= n)
@@ -36,7 +36,7 @@ string Problem::readN(int n)
   solution = buffer;                // fulfill partially from buffer
   buffer = "";
   for (int q = n / 7; q > 0; q--) solution += read7();
-  int r = n % 7;
+  unsigned int r = n % 7;
   if (r == 0) return solution;
   buffer = read7();
   solution += buffer.substr(0, r);  // fulfill remaining from buffer
