@@ -1,11 +1,10 @@
 // Copyright 2021
 // Author: Ankur Jain
 
-#define CATCH_CONFIG_MAIN
 #include "../../catch2/catch.hpp"
 #include "Problem.h"
 
-SCENARIO( "Boundary conditions are tested", "[edge]" ) {
+SCENARIO( "82.Boundary conditions are tested", "[edge]" ) {
 
   GIVEN( "Empty string is passed" )
   {
@@ -25,7 +24,7 @@ SCENARIO( "Boundary conditions are tested", "[edge]" ) {
   }
 }
 
-SCENARIO( "Different cases are tested", "[cases]" ) {
+SCENARIO( "82.Different cases are tested", "[cases]" ) {
 
   GIVEN( "Sample string is passed" )
   {
@@ -80,7 +79,7 @@ SCENARIO( "Different cases are tested", "[cases]" ) {
   }
 }
 
-SCENARIO( "Large cases are tested", "[scale]" ) {
+SCENARIO( "82.Large cases are tested", "[scale]" ) {
 
   GIVEN( "Large string is passed" )
   {
@@ -90,7 +89,7 @@ SCENARIO( "Large cases are tested", "[scale]" ) {
     {
       int n = 100000;
 
-      THEN( n + "characters are returned" )
+      THEN( "All characters are returned" )
       {
         REQUIRE( p.readN(n) == "This is a decently large string in the context of this test." );
         REQUIRE( p.readN(n) == "" );

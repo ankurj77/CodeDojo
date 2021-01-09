@@ -1,11 +1,10 @@
 // Copyright 2021
 // Author: Ankur Jain
 
-#define CATCH_CONFIG_MAIN
 #include "../../catch2/catch.hpp"
 #include "Problem.h"
 
-SCENARIO( "Boundary conditions are tested", "[edge]" ) {
+SCENARIO( "83.Boundary conditions are tested", "[edge]" ) {
   Problem<char> p;
 
   GIVEN( "Empty tree is used as input" )
@@ -48,7 +47,7 @@ SCENARIO( "Boundary conditions are tested", "[edge]" ) {
 }
 
 
-SCENARIO( "Different cases are tested", "[cases]" ) {
+SCENARIO( "83.Different cases are tested", "[cases]" ) {
   Problem<char> p;
 
   GIVEN( "Sample tree is used as input" )
@@ -73,7 +72,7 @@ SCENARIO( "Different cases are tested", "[cases]" ) {
   }
 }
 
-SCENARIO( "Large cases are tested", "[scale]" ) {
+SCENARIO( "83.Large cases are tested", "[scale]" ) {
 
   Problem<int> p;
 

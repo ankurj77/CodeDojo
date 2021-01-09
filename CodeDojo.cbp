@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CodeDojo" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/CodeDojo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="catch2/catch.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="problems/81/Problem.cpp" />
+		<Unit filename="problems/81/Problem.h" />
+		<Unit filename="problems/81/ProblemTest.cpp" />
+		<Unit filename="problems/82/Problem.cpp" />
+		<Unit filename="problems/82/Problem.h" />
+		<Unit filename="problems/82/ProblemTest.cpp" />
+		<Unit filename="problems/83/Problem.cpp" />
+		<Unit filename="problems/83/Problem.h" />
+		<Unit filename="problems/83/ProblemTest.cpp" />
+		<Unit filename="problems/84/Problem.cpp" />
+		<Unit filename="problems/84/Problem.h" />
+		<Unit filename="problems/84/ProblemTest.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
