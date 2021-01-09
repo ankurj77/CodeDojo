@@ -31,7 +31,7 @@ d   e f       f e  d
 ```
 A NE B
 ```
-This means this means point A is located northeast of point B.
+This means point A is located northeast of point B.
 ```
 A SW C
 ```
