@@ -4,9 +4,9 @@ else
   BINARY = ./CodeDojo.out
 endif
 
-CFLAGS  = -Wall -fexceptions -O2
+CFLAGS  = -Wall -O2
 CC      = g++
-PROBLEM = 82
+PROBLEM = 84
 
 all : CodeDojo
 	$(BINARY)
