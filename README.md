@@ -26,3 +26,26 @@ d   e f       f e  d
 85. Given three 32-bit integers x, y and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
 
 86. Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed). For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
+
+87. A rule looks like this:
+```
+A NE B
+```
+This means this means point A is located northeast of point B.
+```
+A SW C
+```
+means that point A is southwest of C.
+
+Given a list of rules, check if the sum of the rules validate. For example:
+```
+A N B
+B NE C
+C N A
+```
+does not validate, since A cannot be both north and south of C.
+```
+A NW B
+A N B
+```
+is considered valid.
