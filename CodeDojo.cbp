@@ -23,6 +23,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename=".gitignore" />
+		<Unit filename="Makefile" />
+		<Unit filename="README.md" />
 		<Unit filename="catch2/catch.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="problems/81/Problem.cpp" />
@@ -37,6 +40,12 @@
 		<Unit filename="problems/84/Problem.cpp" />
 		<Unit filename="problems/84/Problem.h" />
 		<Unit filename="problems/84/ProblemTest.cpp" />
+		<Unit filename="problems/85/Problem.cpp" />
+		<Unit filename="problems/85/Problem.h" />
+		<Unit filename="problems/85/ProblemTest.cpp" />
+		<Unit filename="problems/86/Problem.cpp" />
+		<Unit filename="problems/86/Problem.h" />
+		<Unit filename="problems/86/ProblemTest.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
