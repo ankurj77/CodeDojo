@@ -6,7 +6,7 @@ endif
 
 CFLAGS  = -Wall -O2
 CC      = g++
-PROBLEM = 84
+PROBLEM = 85
 
 all : CodeDojo
 	$(BINARY)
